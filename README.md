@@ -19,7 +19,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-![Customer Segmentation](2.1_customer_segementation.png)
+![Customer Segmentation](images/2.1_customer_segementation.png)
 
 📊 **Key Findings:**
 - High-value segment (25% of customers) drives 66% of revenue ($135.4M)
@@ -31,7 +31,23 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Mid-Value (32% revenue): Create upgrade paths through personalized promotions, with potential $66.6M → $135.4M revenue opportunity
 - Low-Value (2% revenue): Design re-engagement campaigns and price-sensitive promotions to increase purchase frequency
 
-### 2. Retention Analysis
+### 2. Cohort-Based Analysis
+- Tracked cumulative revenue per customer cohort
+- Analyzed lifetime value trends
+- Evaluated acquisition channel performance
+
+🖥️ Query: [3_retention_analysis.sql](3_retention_analysis.sql)
+
+**📈 Visualization:**
+
+![Cohort-Based LTV Analysis](images/4_example.png)
+
+📊 **Key Findings:**
+- 2023 cohorts: 25% higher LTV than 2022
+- Social media customers: 2x higher 12-month LTV
+- Holiday cohorts: 40% better retention
+
+### 3. Retention Analysis
 - Identified customers at risk of churning
 - Analyzed last purchase patterns
 - Calculated customer-specific metrics and warning indicators
@@ -40,7 +56,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-![Retention Analysis](2.2_cohort_ltv_over_time.png)
+![Retention Analysis](images/2.2_cohort_ltv_over_time.png)
 
 📊 **Key Findings:**
 - 2023 cohort shows highest first-year LTV ($1.2M avg/month)
@@ -55,21 +71,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 - Growth Patterns: Critical engagement window identified in months 4-8, requiring targeted campaigns during plateau periods
 - Revenue Optimization: Focus on first 3 months for customer engagement, followed by retention strategies for months 4-8 growth period
 
-### 3. Cohort-Based LTV Analysis
-- Tracked cumulative revenue per customer cohort
-- Analyzed lifetime value trends
-- Evaluated acquisition channel performance
 
-🖥️ Query: [example_query.sql](example_query.sql)
-
-**📈 Visualization:**
-
-![Cohort-Based LTV Analysis](4_example.png)
-
-📊 **Key Findings:**
-- 2023 cohorts: 25% higher LTV than 2022
-- Social media customers: 2x higher 12-month LTV
-- Holiday cohorts: 40% better retention
 
 ## Strategic Recommendations
 
