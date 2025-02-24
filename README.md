@@ -40,7 +40,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-![Cohort-Based LTV Analysis](images/4_example.png)
+![Retention Analysis](images/2.2_cohort_ltv_over_time.png)
 
 📊 **Key Findings:**
 - 2023 cohorts: 25% higher LTV than 2022
@@ -56,7 +56,7 @@ Analysis of customer behavior, retention, and lifetime value for an e-commerce c
 
 **📈 Visualization:**
 
-![Retention Analysis](images/2.2_cohort_ltv_over_time.png)
+![Cohort-Based LTV Analysis](images/4_example.png)
 
 📊 **Key Findings:**
 - 2023 cohort shows highest first-year LTV ($1.2M avg/month)
